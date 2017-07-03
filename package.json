@@ -1,0 +1,34 @@
+{
+  "name": "fixparserjs",
+  "version": "1.0.0",
+  "description": "A node.js module to parse FIX protocol into JSON",
+  "main": "fixparserjs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardlevano/fixparserjs.git"
+  },
+  "keywords": [
+    "fix",
+    "protocol",
+    "json",
+    "financial",
+    "quantitative",
+    "parsing"
+  ],
+  "author": "Ricardo Levano <rlevano77@gmail.com> (https://github.com/richardlevano)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardlevano/fixparserjs/issues"
+  },
+  "homepage": "https://github.com/richardlevano/fixparserjs#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
